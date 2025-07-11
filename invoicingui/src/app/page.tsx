@@ -24,8 +24,8 @@ export default function Home() {
           Manage your invoices, customize designs, and keep records securely. Please log in to access your dashboard.
         </p>
         <div className="flex gap-4">
-          <Link href="/login" className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Login</Link>
-          <Link href="/register" className="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">Register</Link>
+          <Link href="/public/login" className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Login</Link>
+          <Link href="/public/register" className="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">Register</Link>
         </div>
       </main>
 
